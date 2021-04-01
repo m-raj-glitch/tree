@@ -13,7 +13,7 @@ class treenode{
 //creating input func. for taking tree as input
 treenode<int>* takeinput(){
     cout<<"enter the data: ";
-    int rdata;
+    int rdata;//root data
     cin>>rdata;
     treenode<int>* root = new treenode<int>(rdata);
     int n;
